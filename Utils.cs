@@ -112,11 +112,11 @@ public class Utils {
 
 			if (input.Key == ConsoleKey.UpArrow) index--;
 			else if (input.Key == ConsoleKey.DownArrow || input.Key == ConsoleKey.Tab) index++;
-
+            
 		}
 		while (input.Key != ConsoleKey.Enter);
 
 		return index;
 	}
-    
+
 }
